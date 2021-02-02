@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:NotificationSample"
+             x:Class="NotificationSample.MainPage">
+    <StackLayout>
+    <StackLayout x:Name="notificationPanel" IsVisible="false" Padding="10">
+        <Entry Placeholder="Message" x:Name="message" HorizontalOptions="FillAndExpand"/>
+        <Button Text="Send Notification" Clicked="SendNotification"/>
+    </StackLayout>
+        <StackLayout x:Name="loginPanel" IsVisible="true" Padding="10">
+            <Label  Text="User Name" HorizontalOptions="FillAndExpand"/>
+            <Entry Placeholder="User Name" x:Name="UserName" HorizontalOptions="FillAndExpand"/>
+
+            <Label  Text="Password" HorizontalOptions="FillAndExpand"/>
+            <Entry Placeholder="Password" x:Name="Password" HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="Login" Clicked="Login"/>
+        </StackLayout>
+
+        <StackLayout x:Name="devicePanel" IsVisible="false">
+
+            <Label HorizontalOptions="Center" Text="MAC Address" ></Label>
+            <Label HorizontalOptions="Center" x:Name="MAC"></Label>
+        </StackLayout>
+
+
+
+    </StackLayout>
+</ContentPage>
