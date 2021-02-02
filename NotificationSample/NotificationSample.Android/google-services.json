@@ -7,27 +7,27 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:563370851889:android:f69a6895c139bee4981f10",
+        "mobilesdk_app_id": "Download this file",
         "android_client_info": {
           "package_name": "com.HRTS.android"
         }
       },
       "oauth_client": [
         {
-          "client_id": "563370851889-6kk02e9u0pbiijd4oqbliji9rs7bsmoq.apps.googleusercontent.com",
+          "client_id": "Download this file",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBrly5-Zq5SGKDhaes25KEUA-wz5tXPBNo"
+          "current_key": "Download this file"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "563370851889-6kk02e9u0pbiijd4oqbliji9rs7bsmoq.apps.googleusercontent.com",
+              "client_id": "Download this file",
               "client_type": 3
             }
           ]
